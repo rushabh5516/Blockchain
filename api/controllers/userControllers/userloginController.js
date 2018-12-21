@@ -8,10 +8,6 @@ var admin = require("firebase-admin");
 
 var UserFirebase = require("../../config/blockchain-c57cf-firebase-adminsdk-rl98v-8d2a45e6c3.json");
 
-admin.initializeApp({
-  credential: admin.credential.cert(UserFirebase),
-  databaseURL: "https://blockchain-c57cf.firebaseio.com"
-});
 
 
 /*--------------------------------------User APIs-------------------------*/
